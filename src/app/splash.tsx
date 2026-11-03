@@ -3,7 +3,7 @@ import React, { useEffect } from 'react';
 import { router } from 'expo-router';
 
 export default function Splash() {
-  // a los 3 segundos entra a la app
+
   useEffect(() => {
     const tiempo = setTimeout(() => {
       router.replace('/(tabs)');
