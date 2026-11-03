@@ -5,7 +5,7 @@ export default function Layout() {
   return (
     <Drawer>
       <Drawer.Screen
-        name="index" // This is the name of the page and must match the url from root
+        name="index" 
         options={{
           drawerLabel: 'Inicio',
           title: 'Inicio',
@@ -13,7 +13,7 @@ export default function Layout() {
         }}
       />
       <Drawer.Screen
-        name="destinos" // This is the name of the page and must match the url from root
+        name="destinos"
         options={{
           drawerLabel: 'Destinos',
           title: 'Destinos',
@@ -21,7 +21,7 @@ export default function Layout() {
         }}
       />
       <Drawer.Screen
-        name="nosotros" // This is the name of the page and must match the url from root
+        name="nosotros"
         options={{
           drawerLabel: 'Nosotros',
           title: 'Nosotros',
@@ -29,7 +29,7 @@ export default function Layout() {
         }}
       />
       <Drawer.Screen
-        name="contactos" // This is the name of the page and must match the url from root
+        name="contactos"
         options={{
           drawerLabel: 'Contactos',
           title: 'Contactos',
